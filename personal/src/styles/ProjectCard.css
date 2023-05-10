@@ -1,0 +1,80 @@
+.project-list-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+/* .project-card-container {
+  max-height: 800px;
+  height: 550px;
+  max-width: 450px;
+  padding: 2.1rem;
+  background-color: #ffe3cd;
+  border-radius: 20px;
+  border: 1px solid #0a0096;
+  box-shadow: 0px 0px 0px black;
+  transition: all 250ms ease-in-out;
+}
+
+.project-card-container:hover {
+  box-shadow: -6px 10px 0px #0a0096;
+  transform: translate(10px, -15px);
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+} */
+.project-card-container {
+    position: relative;
+    max-height: 800px;
+    height: 550px;
+    max-width: 450px;
+    padding: 2.1rem;
+    background-color: #ffe3cd;
+    border-radius: 20px;
+    border: 1px solid #0a0096;
+    box-shadow: 0px 0px 0px black;
+    transition: all 250ms ease-in-out;
+  }
+  
+  .project-card-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(176, 136, 194, 0.5);
+    transition: opacity 250ms ease-in-out;
+    border-radius: 20px;
+    z-index: 1;
+  }
+  
+  .project-card-container:hover::before {
+    opacity: 0;
+  }
+  
+  .project-card-container:hover {
+    box-shadow: -6px 10px 0px #0a0096;
+    transform: translate(10px, -15px);
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+  }
+  
+.project-card-image{
+    max-height: 250px;
+    max-width: 400px;
+    margin-bottom: 1.5rem;
+}
+.project-card-title {
+  font-size: 2.25rem;
+  text-decoration: underline;
+  font-weight: 700;
+  font-family: 'League-Spartan', sans-serif;
+  margin-bottom: 3.4509rem;
+}
+.project-card-subtitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-family: 'League-Spartan', sans-serif;
+  margin-bottom: 3.4509rem;
+}

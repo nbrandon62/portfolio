@@ -62,6 +62,7 @@ export default class Exp extends Component {
     const { activeItem, isVertical } = this.state;
 
     return (
+      <>
       <div className='exp-container'>
         <div className='exp-wrapper'>
           <div className='exp-menu'>
@@ -105,6 +106,7 @@ export default class Exp extends Component {
           </div>
         </div>
       </div>
+      </>
     );
   }
 }
