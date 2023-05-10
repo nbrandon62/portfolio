@@ -56,6 +56,8 @@
     background-color: #ffe3cd;
     border-radius: 20px;
     border: 1px solid #0a0096;
+    box-shadow: -15px 15px 0px #0a0096;
+    transform: translate(10px, -15px);
 }
 .exp-body-header{
     display: flex;
