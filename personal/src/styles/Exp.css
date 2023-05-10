@@ -1,0 +1,54 @@
+.exp-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.exp-wrapper {
+  padding: 2.1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  grid-gap: 5em;
+  margin-top: 1em;
+  max-width: 1300px; /* adjust as needed */
+}
+
+@media only screen and (min-width: 768px) {
+  .exp-wrapper {
+    grid-template-columns: 200px 1fr;
+  }
+}
+.exp-body-container{
+    padding: 2.1rem;
+    background-color: #ffe3cd;
+}
+.exp-body-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.exp-body-title{
+    color: #0047ff;
+    font-size: 1.65rem;
+    font-weight: 700;
+    font-family: 'Inter Tight', sans-serif;
+    margin-bottom: 3.4509rem;
+}
+.exp-header{
+    margin-left: 20vh;
+  }
+.exp-body-body{
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-family: 'League-Spartan', sans-serif;
+    margin-bottom: 3.4509rem;
+}
+.exp-body-points{
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-family: 'League-Spartan', sans-serif;
+    margin-bottom: 3.4509rem;
+    line-height: 2rem;
+}
