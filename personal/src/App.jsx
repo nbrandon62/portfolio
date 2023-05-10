@@ -1,25 +1,17 @@
-import Exp from './components/Exp';
-import ExpHeader from './components/ExpHeader';
-import Header from './components/Header';
-import Navbar from './components/Navbar';
-import ProjectList from './components/ProjectList';
-import ProjectsHeader from './components/ProjectsHeader';
-import SideBar from './components/SideBar';
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import ResumePage from './pages/ResumePage';
 import './styles/App.css';
 
 function App() {
-
   return (
     <>
-      <Navbar />
-      <SideBar />
-      <Header />
-      <ExpHeader />
-      <Exp />
-      <ProjectsHeader />
-      <ProjectList />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/resume' element={<ResumePage />}></Route>
+      </Routes>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -49,7 +49,7 @@ export default class Exp extends Component {
   }
 
   handleResize = () => {
-    if (window.innerWidth < 768) {
+    if (window.innerWidth < 850) {
       this.setState({ isVertical: false });
     } else {
       this.setState({ isVertical: true });

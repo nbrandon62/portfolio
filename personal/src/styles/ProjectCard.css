@@ -41,9 +41,7 @@
     box-shadow: 0px 0px 0px black;
     transition: all 250ms ease-in-out;
   }
-
 }
-  
 
 @media screen and (max-width: 1440px) {
   .project-list-wrapper {
@@ -71,17 +69,16 @@
     box-shadow: 0px 0px 0px black;
     transition: all 250ms ease-in-out;
   }
-  
+
   .project-card-container::before {
     display: none;
   }
-  
+
   .project-card-image {
     width: auto;
     height: 100%;
     max-height: 250px;
   }
-
 }
 
 .project-card-container:hover::before {
