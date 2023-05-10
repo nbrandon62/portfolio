@@ -26,12 +26,7 @@
     padding-bottom: 25vh ;
   }
 }
-.ui.dividing.header{
-  color: #0047ff;
-  font-size: 2.9rem;
-  font-weight: 100;
-  font-family: 'Inter Tight', sans-serif;
-}
+
 
 .title{
     margin-top: 3rem;
@@ -77,4 +72,10 @@
   border-radius: 50%;
   background-color: rgba(44, 165, 108, 0.2);
   z-index: -1;
+}
+.ui.dividing.header{
+  color: #0047ff;
+  font-size: 2.9rem;
+  font-weight: 100;
+  font-family: 'Inter Tight', sans-serif;
 }

@@ -1,5 +1,6 @@
 import Exp from '../components/Exp';
 import ExpHeader from '../components/ExpHeader';
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import ProjectList from '../components/ProjectList';
@@ -17,6 +18,7 @@ function Home() {
         <Exp />
         <ProjectsHeader />
         <ProjectList />
+        <Footer />
     </>
   );
 }
