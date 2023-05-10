@@ -86,12 +86,16 @@ export default class Exp extends Component {
             {this.state.activeItem === 'HexigonAI' ? (
               <ExpBody
                 title={'Frontend Engineer'}
+                link={'Hexigon AI'}
+                href={'https://www.hexigon.ai/'}
                 date={'Jan - May 2023'}
                 body={hexigonBody}
               />
             ) : this.state.activeItem === 'Bitwise Industries' ? (
               <ExpBody
                 title={'Web Developer'}
+                link={'Bitwise Industries'}
+                href={'https://bitwiseindustries.com/'}
                 date={'Jan 2022 - Jan 2023'}
                 body={bitwiseBody}
               />
