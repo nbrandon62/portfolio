@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Navbar from './components/Navbar';
 import ProjectList from './components/ProjectList';
 import ProjectsHeader from './components/ProjectsHeader';
+import SideBar from './components/SideBar';
 import './styles/App.css';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <SideBar />
       <Header />
       <ExpHeader />
       <Exp />

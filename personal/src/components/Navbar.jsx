@@ -3,12 +3,12 @@ import '../styles/Nav.css'
 
 const Navbar = () => {
   return (
-    <div class='ui secondary menu'>
-      <div class='right menu'>
-        <a class='item'>experience</a>
-        <a class='item'>projects</a>
-        <a class='item'>contact</a>
-        <a class='item'>resume</a>
+    <div className='ui secondary menu'>
+      <div className='right menu'>
+        <a className='item'>experience</a>
+        <a className='item'>projects</a>
+        <a className='item'>contact</a>
+        <a className='item'>resume</a>
       </div>
     </div>
   );
