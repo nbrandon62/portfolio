@@ -6,6 +6,7 @@ import justchilld from '../assets/justchilld.png';
 
 const projects = [
   {
+    link: 'http://144.202.10.194:3000/',
     img: compox,
     title: 'Compo-X',
     subtitle:
@@ -13,6 +14,7 @@ const projects = [
     tech: 'Next.js | Directus | GraphQL | TailwindCSS   ',
   },
   {
+    link:'https://react-recipes-9cdc1.web.app/',
     img: cheflife,
     title: 'cheflife at home',
     subtitle:
@@ -20,6 +22,7 @@ const projects = [
     tech: 'React | Firebase | CSS  | Semantic-UI',
   },
   {
+    link:'https://justchilld.com/',
     img: justchilld,
     title: "just chill'd",
     subtitle:
@@ -33,6 +36,7 @@ const ProjectList = () => {
     return (
       <ProjectCard
         key={index}
+        link={project.link}
         title={project.title}
         subtitle={project.subtitle}
         img={project.img}
