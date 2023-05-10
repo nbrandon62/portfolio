@@ -4,9 +4,9 @@ import '../styles/Footer.css'
 const Footer = () => {
   return (
     <div className='footer-wrapper'>
-        <div className="footer-container">
+        <div id='contact'className="footer-container">
             <div className="footer-title">
-              <p>What Next?</p>
+              <p>What's Next?</p>
             </div>
             <div className="footer-header">
               <p>Get in touch</p>

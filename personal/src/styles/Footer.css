@@ -3,6 +3,7 @@
   justify-content: center;
   flex-direction: column;
   width: 40%;
+  position: relative;
 }
 @media screen and (max-width: 1500px) {
   .footer-container {
@@ -21,7 +22,106 @@
   padding: 0;
   margin: 0;
   padding: 30vh;
+  position: relative;
 }
+
+.footer-container:before {
+  content: '';
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 650px;
+  height: 500px;
+  border-top-left-radius: 79%;
+  border-bottom-right-radius: 49%;
+  background-color: rgba(44, 165, 108, 0.2);
+  z-index: -1;
+  -webkit-animation: right 2s infinite ease-in-out;
+  -moz-animation: right 2s infinite ease-in-out;
+  animation: right 2s infinite ease-in-out;
+}
+.footer-wrapper:before {
+  content: '';
+  position: absolute;
+  top: 55%;
+  left: 30%;
+  width: 400px;
+  height: 500px;
+  border-top-left-radius: 79%;
+  border-bottom-right-radius: 49%;
+  background-color: rgba(44, 165, 108, 0.2);
+  z-index: -1;
+  -webkit-animation: left 2.1s infinite ease-in-out;
+  -moz-animation: left 2.1s infinite ease-in-out;
+  animation: left 2.1s infinite ease-in-out;
+}
+/* @media screen and (max-width: 1500px) {
+  .footer-wrapper:before {
+    top: 40%;
+    left: 30%;
+  }
+} */
+@-webkit-keyframes left {
+  0% {
+    -webkit-transform: translate(15px);
+  }
+  50% {
+    -webkit-transform: translate(-15px);
+  }
+  100% {
+    -webkit-transform: translate(15px);
+  }
+}
+
+@-moz-keyframes right {
+  0% {
+    -moz-transform: translate(-15px);
+  }
+  50% {
+    -moz-transform: translate(15px);
+  }
+  100% {
+    -moz-transform: translate(-15px);
+  }
+}
+
+@-moz-keyframes left {
+  0% {
+    -moz-transform: translate(15px);
+  }
+  50% {
+    -moz-transform: translate(-15px);
+  }
+  100% {
+    -moz-transform: translate(15px);
+  }
+}
+
+@keyframes right {
+  0% {
+    transform: translate(-15px);
+  }
+  50% {
+    transform: translate(15px);
+  }
+  100% {
+    transform: translate(-15px);
+  }
+}
+
+@keyframes left {
+  0% {
+    transform: translate(15px);
+  }
+  50% {
+    transform: translate(-15px);
+  }
+  100% {
+    transform: translate(15px);
+  }
+}
+
+
 .footer-header,
 .footer-body,
 .footer-subtext {
@@ -46,7 +146,7 @@
   text-decoration: underline;
 }
 .footer-subtext {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   text-align: center;
   margin-top: 1rem;
 }
