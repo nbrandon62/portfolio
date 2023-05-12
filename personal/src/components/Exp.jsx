@@ -23,6 +23,9 @@ const hexigonBody = [
 
 const bitwiseBody = [
   {
+    point: 'Completed client project 1 month before deadline allowing for app optimization, and client edits.',
+  },
+  {
     point:
       'Built custom web app survey end-to-end using client wireframe that boosted their client work by 50% since implementing the online survey. ',
   },
