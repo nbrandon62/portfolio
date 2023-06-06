@@ -100,7 +100,7 @@ export default class Exp extends Component {
                 title={'Web Developer'}
                 link={'Bitwise Industries'}
                 href={'https://bitwiseindustries.com/'}
-                date={'Jan 2022 - Jan 2023'}
+                date={'Nov 2021 - Jan 2023'}
                 body={bitwiseBody}
               />
             ) : (
