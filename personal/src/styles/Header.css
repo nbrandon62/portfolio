@@ -9,6 +9,12 @@
     padding-left: 10rem;
   }
 }
+@media (min-width: 395px) and (min-height: 762px) {
+  body {
+    background-color: blue;
+  }
+}
+
 
 .wrapper {
   display: flex;

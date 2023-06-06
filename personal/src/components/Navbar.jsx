@@ -3,22 +3,17 @@ import '../styles/Nav.css';
 
 const Navbar = () => {
   return (
-    <div className='ui secondary menu'>
-      <div className='right menu'>
-        <a className='item' href='#experience'>
-          experience
-        </a>
-        <a className='item' href='#projects'>
-          projects
-        </a>
-        <a className='item' href='#contact'>
-          contact
-        </a>
-          <a className='item' href='/resume' target='_blank'>
-            resume
-          </a>
-      </div>
-    </div>
+    <nav>
+    <div class="logo"></div>
+    <input type="checkbox" id="menu-toggle"/>
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+    <ul class="menu">
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="/resume" target='_blank'>Resume</a></li>
+    </ul>
+  </nav>
   );
 };
 
