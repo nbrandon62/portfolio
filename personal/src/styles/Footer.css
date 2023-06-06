@@ -40,7 +40,8 @@
   height: 500px;
   border-top-left-radius: 79%;
   border-bottom-right-radius: 49%;
-  background-color: rgba(44, 165, 108, 0.2);
+  background-color: rgba(255, 0, 98, 0.2);
+  filter: blur(40px);
   z-index: -1;
   -webkit-animation: right 2s infinite ease-in-out;
   -moz-animation: right 2s infinite ease-in-out;
@@ -55,7 +56,8 @@
   height: 500px;
   border-top-left-radius: 79%;
   border-bottom-right-radius: 49%;
-  background-color: rgba(44, 165, 108, 0.2);
+  background-color: rgba(252, 0, 0, 0.2);
+  filter: blur(40px);
   z-index: -1;
   -webkit-animation: left 2.1s infinite ease-in-out;
   -moz-animation: left 2.1s infinite ease-in-out;
@@ -171,7 +173,7 @@
   justify-content: center;
 }
 .footer-header {
-  color: #0047ff;
+  color: #000000;
   font-size: 4rem;
   font-family: 'Inter Tight', sans-serif;
   font-weight: 700;

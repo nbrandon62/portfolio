@@ -11,14 +11,14 @@ import '../styles/App.css';
 function Home() {
   return (
     <>
-        <Navbar />
-        <SideBar />
-        <Header />
-        <ExpHeader />
-        <Exp />
-        <ProjectsHeader />
-        <ProjectList />
-        <Footer />
+      <Navbar />
+      <SideBar />
+      <Header />
+      <ExpHeader />
+      <Exp />
+      <ProjectsHeader />
+      <ProjectList />
+      <Footer />
     </>
   );
 }
