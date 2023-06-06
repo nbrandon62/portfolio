@@ -20,7 +20,7 @@
   align-items: center;
   height: 100vh;
   width: 100%;
-  margin-left: 40px;
+  margin-left: 20px;
   padding: 30vh;
   position: relative;
 }
@@ -95,13 +95,13 @@
     width: 200px;
     height: 200px;
     top: 55%;
-    left: 30%;
+    left: 20%;
   }
   .footer-wrapper:before {
     width: 220px;
     height: 200px;
     top: 45%;
-    left: 30%;
+    left: 20%;
   }
 }
 @-webkit-keyframes left {
@@ -199,7 +199,7 @@
 }
 @media screen and (max-width: 375px) {
   .footer-header {
-    font-size: 2rem;
+    font-size: 1.3rem;
   }
   .footer-body,
   .footer-title {

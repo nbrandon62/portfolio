@@ -1,3 +1,9 @@
+#experience{
+  padding-top: 20vh;
+  padding-bottom: 5vh;
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
 .exp-container {
   display: flex;
   flex-direction: column;
@@ -92,6 +98,14 @@
   font-family: 'League-Spartan', sans-serif;
   margin-bottom: 3.4509rem;
   line-height: 2rem;
+}
+
+@media screen and (max-width: 472px) {
+  .exp-body-points{
+    font-size: 0.9rem;
+    line-height: 100%;
+    padding-inline: 10px;
+  }
 }
 
 .ui.secondary.pointing.menu .active.item, .ui.secondary.pointing.menu .active.item:hover{

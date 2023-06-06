@@ -92,7 +92,7 @@ export default class Exp extends Component {
                 title={'Frontend Engineer'}
                 link={'Hexigon AI'}
                 href={'https://www.hexigon.ai/'}
-                date={'Jan - May 2023'}
+                date={'Jan - Jun 2023'}
                 body={hexigonBody}
               />
             ) : this.state.activeItem === 'Bitwise Industries' ? (

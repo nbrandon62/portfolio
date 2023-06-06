@@ -7,7 +7,7 @@
 
 .project-card-container {
   position: relative;
-  height: 600px;
+  height: fit-content;
   width: 450px;
   padding: 2.1rem;
   background-color: #ffefc1;
@@ -32,7 +32,7 @@
 @media screen and (max-width: 851px) {
   .project-list-wrapper .project-card-wrapper .project-card-container {
     display: block;
-    height: 600px;
+    height: 100%;
     width: 75%;
     padding: 1.8rem;
     background-color: #ffefc1;
@@ -64,7 +64,7 @@
     margin-bottom: 9rem;
   }
   .project-card-container {
-    margin-left: 7rem;
+    margin-left: 5rem;
     margin-right: 2rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -106,10 +106,6 @@
   max-width: 100%;
   margin-bottom: 1.5rem;
   border: 2px solid #0a0096;
-}
-
-.project-card-body{
-  height: 100%;
 }
 
 .project-card-title {
