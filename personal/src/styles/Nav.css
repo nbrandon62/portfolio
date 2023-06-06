@@ -84,3 +84,11 @@ nav {
   }
 
 }
+
+@media screen and (max-width: 400px) {
+  .menu li a {
+    color: #0a0096;
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+}
