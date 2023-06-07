@@ -4,8 +4,6 @@
 }
 @media screen and (max-width: 796px) {
   .container {
-    display: flex;
-    justify-content: center;
     padding-left: 10rem;
   }
   .text-container{
@@ -172,6 +170,5 @@ body::before {
 .ui.dividing.header {
   color: #0a0096;;
   font-size: 2.9rem;
-  font-weight: 100;
   font-family: 'Inter Tight', sans-serif;
 }
