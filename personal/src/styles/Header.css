@@ -73,6 +73,15 @@ body::before {
   filter: url(#noiseFilter);
 }
 
+@media screen and (max-width: 425px) {
+  body::before,
+  body::after {
+    filter: none;
+    background-color: none;
+    background: none;
+  }
+}
+
 .blob-cont {
   display: flex;
   flex-direction: column;
