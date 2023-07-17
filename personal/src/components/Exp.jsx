@@ -40,7 +40,7 @@ const bitwiseBody = [
 ];
 
 export default class Exp extends Component {
-  state = { activeItem: 'HexigonAI', isVertical: false };
+  state = { activeItem: 'Rantir AI', isVertical: false };
 
   componentDidMount() {
     window.addEventListener('resize', this.handleResize);
@@ -75,8 +75,8 @@ export default class Exp extends Component {
               {...(isVertical ? { vertical: true } : {})}
             >
               <Menu.Item
-                name='HexigonAI'
-                active={activeItem === 'HexigonAI'}
+                name='Rantir AI'
+                active={activeItem === 'Rantir AI'}
                 onClick={this.handleItemClick}
               />
               <Menu.Item
@@ -87,11 +87,11 @@ export default class Exp extends Component {
             </Menu>
           </div>
           <div className='exp-text'>
-            {this.state.activeItem === 'HexigonAI' ? (
+            {this.state.activeItem === 'Rantir AI' ? (
               <ExpBody
                 title={'Frontend Engineer'}
-                link={'Hexigon AI'}
-                href={'https://www.hexigon.ai/'}
+                link={'Rantir AI'}
+                href={'https://www.rantir.com/'}
                 date={'Jan - Jun 2023'}
                 body={hexigonBody}
               />
