@@ -9,7 +9,16 @@ const ExpBody = ({ title, link, href, date, body }) => {
   return (
     <div className='exp-body-container'>
       <div className='exp-body-header'>
-        <div className='exp-body-title'>{title} @ <a className='exp-link'target="_blank" rel="noopener noreferrer" href={href}>{link}</a></div>
+        <div className='exp-body-title'>
+          {title} @ 
+          <a className={[
+            'exp-link',
+            href ? 'exp-link--has-link'
+            : ''
+            ].filter(Boolean).join(' ')} target="_blank" rel="noopener noreferrer" href={href}>
+            {link}
+          </a>
+        </div>
         <div className='exp-body-title'>{date}</div>
       </div>
       <ul className='exp-body-points'>

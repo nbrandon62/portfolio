@@ -9,7 +9,7 @@
   flex-direction: column;
   align-items: center;
 }
-.exp-link {
+.exp-link{
   text-decoration: none;
   color: #0a0096;
   font-size: 1.65rem;
@@ -18,7 +18,7 @@
   margin-bottom: 3.4509rem;
   position: relative;
 }
-.exp-link::before {
+.exp-link--has-link::before {
   content: '';
   cursor: pointer;
   position: absolute;
@@ -30,12 +30,11 @@
   transition: width 0.2s ease-in-out;
 }
 
-.exp-link:hover::before {
+.exp-link--has-link:hover::before {
   width: 100%;
   background-color: #0a0096;
 }
 .exp-link:hover {
-  cursor: pointer;
   color: #0a0096;
   font-size: 1.65rem;
   font-weight: 700;
@@ -83,6 +82,7 @@
   font-family: 'Inter Tight', sans-serif;
   margin-bottom: 3.4509rem;
 }
+
 .exp-header {
   margin-left: 20vh;
 }

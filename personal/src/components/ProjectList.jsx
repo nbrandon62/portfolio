@@ -6,11 +6,11 @@ import justchilld from '../assets/justchilld.png';
 
 const projects = [
   {
-    link: 'http://144.202.10.194:3000/',
+    link: 'https://www.compo.ai/account/create-account',
     img: compox,
-    title: 'Compo-X',
+    title: 'Compo Search',
     subtitle:
-      ' A no-code/low-code solution to web building using the GPT-03 API. Users can sign up and prompt the API to return a fleshed out web component. It renders HTML/CSS to the user and will store to the database.',
+      ' A no-code/low-code solution to web building using the GPT-3.5 API. Users can sign up and prompt the API to return a fleshed out web component. It renders HTML/CSS to the user and will store to the database.',
     tech: 'Next.js | Directus | GraphQL | TailwindCSS   ',
   },
   {
